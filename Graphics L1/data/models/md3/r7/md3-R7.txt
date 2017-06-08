@@ -1,0 +1,151 @@
+
+R7 Player Model Created for HeadHunters III Mod for Quake 3: Arena
+Readme compiled by Jason Seip.
+
+<07/05/01>
+=======================================================================
+
+Model Name				"R7"
+
+3D Model/Skinmap/Animations		Jason Seip 
+					<bonemonkey@enter.net>
+
+Character Design/Skins			Kevin 'Rorshach' Johnstone
+					<rorshach@polycount.com>
+
+Sounds					Monsto Brukes
+					<monsto.brukes@home.com>
+
+Model Description and Info		See Below		
+
+Additional Credits to:   		id Software, creaters of Quake3  
+					tarot, makers of HH3
+
+HeadHunters III website			http://tarot.telefragged.com/hh3/
+
+Special Thanks to Gwot for helping me get the mesh finalized and more 
+feminine. And big thanks to Wrath and Tone on the polycount message board 
+for helping with tag_torso issues regarding 3DS Max R3.  You guys rule.  :)
+
+=======================================================================
+
+Model Description and Info:
+
+New Sounds              : YES
+New Model		: YES
+New Animation		: YES
+CTF Skins               : YES
+Bot Enabled		: YES
+Poly Count              : 898 polys for 1st/2nd LOD, 643 polys for 3rd LOD
+Skin Count              : 5 DM, 4 CTF
+
+Tools Used:
+3D Studio Max Release 3
+Photoshop 5.0+
+Pop 'n Fresh md3 Exporter for Max
+
+
+Origin, adapted from Rorshach's specs:
+
+This is R7 , she is one COLD bitch. She's a Vampiric Fallen Angel with horns 
+and the tallest of the HH3 models. In the arenas, her race is ironically 
+referred to as 'The Kindly Ones'. R7's motto is "The weak must be culled,"  
+and she's risen high amongst her peers in this code of ethics. <For more 
+info on R7's race and HeadHunters III in general, be sure to visit: 
+http://tarot.telefragged.com/hh3/ >
+ 
+Her name is easily translated to 'Arse Heaven' in Britain. This won't be 
+appreciated by everyone from other countries but perhaps more than I think 
+will see the funny side.
+ 
+Her back has 2 stumps, which are all that remain of her wings. These were
+perhaps torn of in battle or burned off during her expulsion from heaven, 
+the truth is known only to her...
+ 
+
+Model Info:
+
+I was sort of a "hired gun" working on models for HeadHunters III, and R7 
+was my assigned character. She was supposed to be released with the mod, 
+so I held onto her even after she was finished. But since it's been awhile
+that she's complete, and the HH3 still hasn't been released, I asked them 
+if I could release her on her own. The answer was yes (or you wouldn't be
+reading this). R7 was the first female humanoid model I ever made, and also 
+the first model I ever animated using 3DS Max & Character Studio. Given that, 
+I'm pretty happy with how she turned out. Not a lot of bells and whistles, but 
+pretty solid in all areas. Note that the 1st and 2nd Level-Of-Detail models
+are the same. I did this because I'd seen problems some modelers had with 
+their characters noticably switching from the 1st to 2nd LOD models because 
+the switching cutoff point was too close to the player's view. I didn't want 
+that for R7, and justified it because the 1st LOD polycount was under 900.
+
+
+Skin Info:
+
+I love Rorshach's base R7 skin, it makes the model come alive. The other skins 
+are basically variations on the base skin, with some different colors, names, 
+faces, and scars (heh). I think it'd be interesting to see some enterprising 
+skinners use shaders to make her horns, stumps, shoulder guard, and arm/leg 
+"flares" invisible. This would give you a pretty generic female model, albeit bald.
+
+
+Bot Info:
+
+R7 speaks to other members of her "race" through telepathy and a series of
+hisses. Since that wouldn't convey too well for the bot, I did give her some
+actual dialogue. However, her "English" is very broken, as if she only speaks
+it when she has to in order to admonish opponents who don't understand her 
+native language. She still hisses, and isn't as talkative as the other bots
+in the game. I think her character is kept intact overall. As for her fighting 
+skills, I started with Hunter's botfile and tweaked it a little, in many cases 
+ramping her abilities up slightly. R7 is no pushover.
+
+=======================================================================
+
+Installation and Usage:
+
+Unzip the files to the baseq3 folder under your Quake3 folder.  This will put 
+"md3-R7.pk3" and "md3-R7.txt" in the baseq3 folder. It will also create a
+models/players/R7/ folder with the "md3-R7.txt" in that as well. I did this 
+because R7 doesn't seem to show up in the player model selection screen unless
+there is a specific player model folder created for her. I don't know why some 
+models need this, but R7 seems to be one of them. When you start Quake3 again R7
+and her ilk will appear in your model selection menu.  You can also choose to 
+use R7 as a bot (only the base R7 character is supported for this).
+
+=======================================================================
+
+Issues:
+
+- Some clipping issues with the right arm during the gesture and death
+animations.  During the gesture, her right arm pushes through the shoulder
+guard. Kinda want to fix it, kinda want to move on...
+
+- I had seen a lot of models with stretched mapping on the head, so I 
+experimented with mapping the top of R7's head separately. This didn't work
+out so well in the end, as it made skinning the head very hard: getting the
+the skin to smoothly transition from one piece to another gave Rorshach many 
+headaches. So note to all modelers: don't try this at home!! 
+
+- The upper body doesn't animate during idle. At first I wasn't sure if you 
+could animate this or not, since the id models didn't seem to make use of it.
+I did then see player models come out that had idle animations. But after a 
+lot of thought, I decided to skip it because the cold stillness R7 showed 
+actually fit her better than if I'd animate her looking around or doing 
+something during idle. She's very stern and disciplined - every movement I 
+considered adding just seemed to be out of character for her.
+
+- The Gauntlet weapon looks backwards in the player control setup, but it's 
+right in the actual game.
+
+=======================================================================
+
+* Copyright / Permissions *
+
+The character R7 is an original concept of Kevin Johnstone.
+
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+
+This model may be freely distributed UNALTERED.  Which means, you can't pull 
+the readme file out of the zip,or add your own stuff to it and pass it along 
+as your own!

@@ -1,0 +1,13 @@
+
+
+for levels 0 2 3
+
+md2name machpis2.md2
+scale 70
+anglebias 0
+floorhand mpist_p4.vga
+frame 1 s2180
+zoffset 50
+spin 200
+rem frame 0 2200
+

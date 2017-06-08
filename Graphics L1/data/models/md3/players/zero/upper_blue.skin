@@ -1,0 +1,12 @@
+tag_head,
+u_head,models\players\zero\headb.tga
+u_llarm,models\players\zero\bodyb.tga
+u_larm,models\players\zero\bodyb.tga
+u_blaster,models\players\zero\blasterb.tga
+u_rarm,models\players\zero\bodyb.tga
+u_body,models\players\zero\bodyb.tga
+u_saber02,models\players\zero\bodyb.tga
+u_blade,models\players\zero\blade2.tga
+u_saber01,models\players\zero\bodyb.tga
+tag_weapon,
+tag_torso,

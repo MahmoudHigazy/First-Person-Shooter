@@ -1,0 +1,6 @@
+{
+name		R7
+model		R7/default
+aifile	bots/R7_c.c
+}
+

@@ -1,0 +1,48 @@
+#version 330 core
+
+// Input data from vertex shader.
+in vec3 position_worldspace;
+in vec3 normal_worldspace;
+in vec2 texCoord;
+
+// Values that stay constant for the whole model.
+uniform sampler2D myTextureSampler;
+uniform vec3 ambientLight;
+uniform vec3 lightPosition;
+uniform vec3 eyePosition;
+
+uniform vec3 ApplyTexOnlY;
+
+
+// Ouput data.
+out vec3 color;
+
+void main()
+{
+	vec3 textureColor = texture( myTextureSampler, texCoord ).rgb;
+	/*vec3 A = ambientLight * textureColor;
+	color = A;*/
+
+	// Diffuse light
+	vec3 vectorToLight = normalize(lightPosition - position_worldspace);
+	float brightness = dot(vectorToLight, normal_worldspace);
+	vec3 diffuseLight = vec3(brightness, brightness, brightness);
+	diffuseLight = clamp(diffuseLight, 0, 1);
+
+	// Specular light
+	vec3 R = reflect(-vectorToLight, normal_worldspace);
+	vec3 V = normalize(eyePosition - position_worldspace);
+	float s = dot(R, V);
+	s = pow(s, 50);
+	vec3 specularLight = vec3(s, s, s);
+	specularLight = clamp(specularLight, 0, 1);
+
+	vec3 LightPureColor=vec3(0.4,0.2,0.0); 
+
+	vec3 lightColor = ambientLight + (diffuseLight + specularLight)*LightPureColor;
+
+	if(ApplyTexOnlY.x==1)
+	color=textureColor;
+	else
+	color = mix(textureColor, lightColor, 0.5);
+}

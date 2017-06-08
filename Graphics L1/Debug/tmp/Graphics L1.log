@@ -1,0 +1,186 @@
+﻿  vertexBufferObject.cpp
+  Tree.cpp
+  TexturedModel.cpp
+  texture.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\texture.cpp(119): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\texture.cpp(430): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+  shader.cpp
+  ShaderProgram.cpp
+  ModelNode.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(75): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\modelnode.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+  Model3D.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(58): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(139): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(192): warning C4018: '<' : signed/unsigned mismatch
+  Model.cpp
+  md2model.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\md2model.cpp(224): warning C4305: 'initializing' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\md2model.cpp(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\md2model.cpp(284): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\md2model.cpp(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\md2model.cpp(599): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\md2model.cpp(627): warning C4018: '<' : signed/unsigned mismatch
+  main.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.h(39): warning C4305: 'initializing' : truncation from 'double' to 'float'
+  KeyFrameAnimationShader.cpp
+  Renderer.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+          e:\fcis\compute graphics\project\[fps][final][team]\middleware\includes\gl\glfw3.h(96) : see previous definition of 'APIENTRY'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.h(39): warning C4305: 'initializing' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(93): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(154): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(161): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(219): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(269): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(362): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(379): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(421): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(426): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(430): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(464): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(744): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(989): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1008): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1018): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1019): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1027): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1028): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1036): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1097): warning C4305: '=' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1112): warning C4305: '=' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1152): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.cpp(1212): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+          e:\fcis\compute graphics\project\[fps][final][team]\middleware\includes\gl\glfw3.h(96) : see previous definition of 'APIENTRY'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\player.cpp(101): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\player.cpp(105): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\player.cpp(110): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\player.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+  MD5Model.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5animation.h(41): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5animation.h(43): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5model.cpp(17): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5model.cpp(19): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+  MD5Animation.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5animation.h(41): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5animation.h(43): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md5animation.cpp(239): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+  Md3.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(177): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(178): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(222): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(247): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(275): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(331): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(382): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(706): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(714): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(845): warning C4018: '>=' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(910): warning C4018: '>=' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(1028): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(1031): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(1039): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(1105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(1167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md3.cpp(1204): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+  md2LeagueOfLegend.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md2leagueoflegend.cpp(195): warning C4305: 'initializing' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md2leagueoflegend.cpp(210): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\loadingmodel\md2leagueoflegend.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+  House.cpp
+  Gun.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+          e:\fcis\compute graphics\project\[fps][final][team]\middleware\includes\gl\glfw3.h(96) : see previous definition of 'APIENTRY'
+  Generating Code...
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\model3d.cpp(69): warning C4715: 'Model3D::LoadFromFile' : not all control paths return a value
+  Compiling...
+  FirstPersonCamera.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(135): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(136): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(139): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(141): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(144): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(146): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(149): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\firstpersoncamera.cpp(151): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+  CollisionManager.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\collisionmanager.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\collisionmanager.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+  CollidableModel.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\collidablemodel.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+  BaseObject.cpp
+  Enemy.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\enemy.cpp(26): warning C4305: '=' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\enemy.cpp(66): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Fruit.cpp
+  Bullet.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\bullet.cpp(33): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+  ApplicationManager.cpp
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\renderer.h(39): warning C4305: 'initializing' : truncation from 'double' to 'float'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\application manager\applicationmanager.cpp(128): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\application manager\applicationmanager.cpp(130): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\application manager\applicationmanager.cpp(131): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+  AABoundingBox.cpp
+  Generating Code...
+  stb_image.c
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\stb_image.c(300): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\stb_image.c(362): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\stb_image.c(400): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+e:\fcis\compute graphics\project\[fps][final][team]\graphics l1\stb_image.c(4298): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+  Graphics L1.vcxproj -> E:\FCIS\Compute Graphics\Project\[FPS][Final][Team]\Debug\Graphics L1.exe
