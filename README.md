@@ -1,5 +1,5 @@
 # First-Person-Shooter
-First Person Shooter Game for computer graphics course using OpenGL and C++
+3D First Person Shooter Game for computer graphics course using OpenGL and C++
 
 # Developers
 - Yossef El-Kayyali
